@@ -1,0 +1,34 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Return type, or void
+- text: A class
+- text: A list of parameters
+- text: Modifiers
+- text: A body of the method
+- text: Variables
+- text: A method name
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10987#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 22 Jul 2022 09:59:41 UTC
+record: -1
+selected_options:
+- 0
+- 2
+- 3
+- 4
+- 6

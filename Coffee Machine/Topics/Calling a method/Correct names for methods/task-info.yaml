@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: cookPASTA
+- text: findUser
+- text: readLine
+- text: 576MyBestMethod
+- text: kitty
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10975#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 14 Jul 2022 12:56:45 UTC
+record: -1
+selected_options:
+- 1
+- 2

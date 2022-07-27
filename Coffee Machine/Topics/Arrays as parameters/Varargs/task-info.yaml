@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: public static void method(long... vararg) { /* do something */ }
+- text: public static void method(int[] a, long... vararg) { /* do something */ }
+- text: public static void method(long vararg...) { /* do something */ }
+- text: public static void method(long.. vararg) { /* do something */ }
+- text: public static void method(double... vararg, int a) { /* do something */ }
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2745#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 26 Jul 2022 13:46:34 UTC
+record: -1
+selected_options:
+- 0
+- 1

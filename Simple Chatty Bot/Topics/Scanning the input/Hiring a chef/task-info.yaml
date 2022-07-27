@@ -1,0 +1,25 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            // start coding here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9057#comment
+status: Failed
+feedback:
+  message: "Failed test #1 of 3. Runtime error\n\nThis is a sample test from the problem\
+    \ statement!\n\nTest input:\nEugene\n8\nfusion\nCorrect output:\nThe form for\
+    \ Eugene is completed. We will contact you if we need a chef who cooks fusion\
+    \ dishes and has 8 years of experience.\n\nYour code output:\n\n\nError:\nException\
+    \ in thread \"main\" java.util.NoSuchElementException: No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\
+    \tat Main.main(Main.java:15)\n"
+  time: Sat, 23 Apr 2022 12:14:07 UTC
+record: -1

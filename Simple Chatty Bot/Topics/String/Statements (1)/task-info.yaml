@@ -1,0 +1,32 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <b>str.charAt(n)</b> returns a character that has the index n.
+- text: <b>str.substring(0, 5)</b> returns a substring from 0 to 4 indexes (inclusive)
+    of the string.
+- text: <b>str.get(n)</b> returns a character that has the index n.
+- text: <b>str.substring(0, 3)</b> returns a substring from 0 to 3 indexes (inclusive)
+    of the string.
+- text: <b>str[n]</b> returns a character that has the index n.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2063#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 25 Apr 2022 09:04:24 UTC
+record: -1
+selected_options:
+- 0
+- 1
+custom_name: Statements
